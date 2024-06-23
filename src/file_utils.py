@@ -1,10 +1,10 @@
 from typing import List, Tuple
 import os
-
+import numpy as np
 from matplotlib import image as mpl_image
 from PIL import Image as pil_image
 from algo.map_utils import Block, Grid_Map
-import numpy as np
+
 
 _blocks = (
     (
